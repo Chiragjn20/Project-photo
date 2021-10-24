@@ -58,7 +58,7 @@ function Nav() {
         
         <div class="class3">
             <a id="atag"href="https://www.instagram.com/abhaybnsal/" target="_blank" rel="noreferrer" > <img src={Instagram} alt=""/> </a>
-            <a id="atag" href="mailto:email@example.com" target="_blank" rel="noreferrer"><img src={Email} alt=""/> </a>
+            <a id="atag" href="mailto:abhayswm01@gmail.com" target="_blank" rel="noreferrer"><img src={Email} alt=""/> </a>
             <a id="atag"  href="whatsapp://send?text=Hello!&phone=+916378542402 " target="_blank" rel="noreferrer" > <img src={WhatsApp} alt=""/> </a>
            </div>
 
