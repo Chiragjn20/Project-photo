@@ -12,7 +12,7 @@ function Nav() {
       <div>
     <nav >
         <header className="maiHead">
-      <Link to ="/">  <img id="img1" src={ABPWhite} width="270" height="160" /> </Link>
+      <Link to ="/">  <img alt="" id="img1" src={ABPWhite} width="270" height="160" /> </Link>
 
       
         

@@ -8,7 +8,7 @@ function Home() {
     <div>
   
         <header className="home">
-      <Link to ="/">  <img src={ABPWhite} width="270" height="160" /> </Link>
+      <Link to ="/">  <img alt="" src={ABPWhite} width="270" height="160" /> </Link>
         
       <ul className="nav-links">
         <Link to="/portfolio"><li>Portfolio </li></Link>
