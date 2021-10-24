@@ -26,7 +26,7 @@ function Nav() {
     </nav>
     <div className="div3">
             <div class="container">
-            <img src={IMG_5400} width= '100%' />
+            <img alt="" src={IMG_5400} width= '100%' />
   </div>
 
  
@@ -57,9 +57,9 @@ function Nav() {
         </div>
         
         <div class="class3">
-            <a id="atag"href="https://www.instagram.com/abhaybnsal/" target="_blank" > <img src={Instagram} alt=""/> </a>
-            <a id="atag" href="mailto:email@example.com" target="_blank"><img src={Email} alt=""/> </a>
-            <a id="atag"  href="whatsapp://send?text=Hello!&phone=+916378542402 " target="_blank" > <img src={WhatsApp} alt=""/> </a>
+            <a id="atag"href="https://www.instagram.com/abhaybnsal/" target="_blank" rel="noreferrer" > <img src={Instagram} alt=""/> </a>
+            <a id="atag" href="mailto:email@example.com" target="_blank" rel="noreferrer"><img src={Email} alt=""/> </a>
+            <a id="atag"  href="whatsapp://send?text=Hello!&phone=+916378542402 " target="_blank" rel="noreferrer" > <img src={WhatsApp} alt=""/> </a>
            </div>
 
                   <p className="text2"> Copyrightx&copy; Abhay Bansal Photography - All Rights Reserved.</p>
