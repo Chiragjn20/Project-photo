@@ -257,12 +257,16 @@ column-width: 100%;
 
 
 .class3 {
+    align-items: center;
+    text-align: center;
+    
     filter: grayscale(100%);
 }
 
 .class3 img {
-    height: 25px;
-    width : 25px;
+    padding: 5px;
+    height: 35px;
+    width : 35px;
 }
 
 .text2{
