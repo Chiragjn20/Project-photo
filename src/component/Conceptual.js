@@ -71,6 +71,7 @@ function Conceptual() {
        <div className="div8" ><img alt="" src={IMG20}/></div>
        <div className="div8" ><img alt="" src={IMG21}/></div>
        <div className="div8" ><img alt="" src={IMG22}/></div>
+       <div className="div8" ><img alt="" src={IMG9}/></div>
 
       </div>
       <section className="py-5">
