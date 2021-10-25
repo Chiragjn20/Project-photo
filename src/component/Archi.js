@@ -31,7 +31,7 @@ function Archi() {
      </ul>
      </header> 
   
-       <h1 className="text1"  style={{paddingTop:'180px'}}> Architecture</h1>
+       <h1 className="text1"  style={{paddingTop:'150px'}}> Architecture</h1>
 
        <div className="div7">
        <div className="div8" ><img alt="" src={IMG1}/></div>

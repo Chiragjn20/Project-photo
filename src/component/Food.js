@@ -31,7 +31,7 @@ function Food() {
      </ul>
      </header> 
   
-       <h1 className="text1"  style={{paddingTop:'180px'}}> Product and Food</h1>
+       <h1 className="text1"  style={{paddingTop:'150px'}}> Product and Food</h1>
 
        <div className="div7"  >
        <div className="div8" ><img alt="" src={IMG1}/></div>

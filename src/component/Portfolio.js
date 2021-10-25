@@ -20,7 +20,7 @@ function Portfolio() {
  </ul>
  </header> 
 
-   <h1 className="text1"  style={{paddingTop:'200px'}}> Portfolio</h1>
+   <h1 className="text1"  style={{paddingTop:'160px'}}> Portfolio</h1>
             <div className="div5">
              <div className="div7">
 
