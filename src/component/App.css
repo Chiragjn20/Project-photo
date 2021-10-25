@@ -397,3 +397,10 @@ background-color:black;
         .text1{
             font-family: 'Brush Script MT', cursive;
         }
+
+
+        #archi img{
+
+            width: 350px;
+            height: 250px;
+        }

@@ -37,7 +37,7 @@ function Archi() {
   
        <h1 className="text1"  style={{paddingTop:'150px'}}> Architecture</h1>
 
-       <div className="div7">
+       <div className="div7" id ="archi">
        <div className="div8" ><img alt="" src={IMG1}/></div>
        <div className="div8" ><img alt="" src={IMG2}/></div>
        <div className="div8" ><img alt="" src={IMG3}/></div>
