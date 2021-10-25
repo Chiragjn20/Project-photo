@@ -19,27 +19,27 @@ function ContactMe() {
  </ul>
  </header> 
 
-  
-   
- <div style={{padding: '200px'}}>
- <h1 className="text6"  > Contact Us</h1>
+ <section className="py-5" >
 
-       <div className="div9"> 
+<div className="container" style={{marginTop:'200px'}}>
+  <div className="row flex-center">
+    <div className="col-md-6 col-xl-8 order-0">
+      <h4 style={{color:'white'}}> Questions or Comments</h4>
+      <p> For inquiries into my work or my availability, please use the form to contact me. I thank you for interest, and I will do my best to get back to soon! </p>
+      <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="whatsapp://send?text=Hello!&phone=+916378542402" src={WhatsApp1} width="280" height="60" alt="..." /></a></li>
+
         
-
-            <h2> Questions or Comments  </h2>
-
-           
-            <p> For inquiries into my work or my availability, please use the form to contact me. I thank you for interest, and I will do my best to get back to soon! </p>
-
-            <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="whatsapp://send?text=Hello!&phone=+916378542402" src={WhatsApp1} width="280" height="60" alt="..." /></a></li>
-  
-            
-         </div>
-     
+    </div>
     
-      </div>
-      <section className="py-5">
+  </div>
+</div>
+
+
+</section>
+
+
+
+      <section className="py-5" style={{marginTop:'150px'}}>
 
 <div className="container">
   <div className="row flex-center">

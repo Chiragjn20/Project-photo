@@ -69,7 +69,7 @@ li{
 
   .division{
       margin-top: 0px;
-      background-color: rgb(31, 24, 24);
+      background-color : black;
       display: flex;
       color: white;
     padding: 30px;
@@ -91,20 +91,20 @@ li{
     background-color: black;
 }
 
-button{
+#idb{
     margin-top: 15px;
     color: white;
     padding: 13px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: rgb(31, 24, 24) ;
-    border: 2px solid white ;
+    background-color: black ;
+    border: 2px solid rgb(78, 52, 52) ;
     border-radius: 30px;
 }
 
 .div2{
     margin-top: 60px;
-    background-color: rgb(31, 24, 24);
+    background-color: black;
     justify-content: center;
     align-items: center;
     color: white;
@@ -113,7 +113,7 @@ button{
 }
 
 .div3{
-    background-color: rgb(31, 24, 24);
+    background-color: black;
 }
 
 .div4{
@@ -259,7 +259,7 @@ column-width: 100%;
 .class3 {
     align-items: center;
     text-align: center;
-    background-color: rgb(31, 24, 24);
+    background-color: black;
     
     filter: grayscale(100%);
 }
@@ -276,16 +276,6 @@ column-width: 100%;
     color: white;
 }
 
-.div9{
-    padding: 20px;
-    color: white;
-
-    margin-top: 50px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-
-}
 
 .div10{
     width: 100%;
@@ -299,7 +289,7 @@ background-size:cover;
 }
 
 .div10{
-background-color: rgb(31, 24, 24);;
+background-color:black;
 }
 
 .list-unstyled {
@@ -393,4 +383,13 @@ background-color: rgb(31, 24, 24);;
 
         .home{
             background-color: black;
+        }
+
+
+        .text-center{
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color: white;
+
         }

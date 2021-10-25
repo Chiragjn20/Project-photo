@@ -58,7 +58,7 @@ function Nav2() {
                  about new prints.                               </p>
                             <div className="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
                               <div className="flex-1 align-items-center pt-2">
-                                <button> Get Print</button>
+                                <button id="idb"> Get Print</button>
                               </div>
                             </div>
                           </div>
@@ -73,7 +73,7 @@ function Nav2() {
                 tell about the subject and most importantly, sell it to the audience. A good picture is one that tells and sells. </p>
                       <div className="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
                               <div className="flex-1 align-items-center pt-2">
-                               <Link to='/portfolio'> <button>See Portfolio </button></Link>
+                               <Link to='/portfolio'> <button id="idb">See Portfolio </button></Link>
                               </div>
                             </div>
                           </div>
@@ -88,7 +88,7 @@ function Nav2() {
                   I have tried different genres of photography and I'm still learning as much as I can. </p>
                        <div className="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
                               <div className="flex-1 align-items-center pt-2">
-                               <Link to='/contactme'> <button>Contact Us</button> </Link>
+                               <Link to='/contactme'> <button id="idb">Contact Us</button> </Link>
                               </div>
                             </div>
                           </div>
@@ -123,8 +123,8 @@ function Nav2() {
               
               <ul className="list-unstyled list-inline mb-6 mb-md-0 text-center text-md-end text-xl-start" style={{display:'flex'}}>
                 <li className="list-inline-item mr-2"><a className="text-decoration-none" href="https://www.instagram.com/abhaybnsal/"><img className="list-social-icon" src={Instagram} width="50" height="50" alt="..." /></a></li>
-                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="mailto:abhayswm01@gmail.com" src={Email } width="50" height="50" alt="..." /></a></li>
-                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="whatsapp://send?text=Hello!&phone=+916378542402" src={WhatsApp} width="50" height="50" alt="..." /></a></li>
+                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="mailto:abhayswm01@gmail.com"><img className="list-social-icon" src={Email } width="50" height="50" alt="..." /></a></li>
+                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="whatsapp://send?text=Hello!&phone=+916378542402"><img className="list-social-icon" src={WhatsApp} width="50" height="50" alt="..." /></a></li>
               </ul>
             </div>
           </div>
