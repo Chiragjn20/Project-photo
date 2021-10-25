@@ -11,6 +11,7 @@ import Video from './component/Video';
 import Conceptual from './component/Conceptual';
 import Modell1 from './component/Modell1';
 import Nav2 from './component/Nav2';
+import Print from './component/Print';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
        <Route path="/portfolio/archi" exact component ={Archi}/>
        <Route path="/portfolio/food" exact component ={Food}/>
        <Route path="/portfolio/video" exact component ={Video}/>
+       <Route path="/prints" exact component ={Print}/>
        </Switch>
       </div>
     </Router>

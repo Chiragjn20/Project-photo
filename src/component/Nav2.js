@@ -58,7 +58,7 @@ function Nav2() {
                  about new prints.                               </p>
                             <div className="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
                               <div className="flex-1 align-items-center pt-2">
-                                <button id="idb"> Get Print</button>
+                               <Link to='/prints'> <button id="idb"> Get Print</button></Link>
                               </div>
                             </div>
                           </div>

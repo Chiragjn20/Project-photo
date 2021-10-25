@@ -5,13 +5,12 @@ import {Link } from 'react-router-dom';
 import ABPWhite from './ABPWhite.png';
 import Instagram from './Instagram.png';
 import Email from './email.png';
-import WhatsApp1 from './MUOW.png';
 import WhatsApp from './Whatsapp.png';
 import './assets/css/theme.css';
 
-function ContactMe() {
+function Print() {
   return (
-    <div className="div6">
+    <div className="div6" >
     <header  style= {{position :"absolute"}} className="home">
   <Link to ="/">  <img alt="" src={ABPWhite} width="270" height="160" /> </Link>    
   <ul className="nav-links">
@@ -24,11 +23,7 @@ function ContactMe() {
 <div className="container" style={{marginTop:'200px'}}>
   <div className="row flex-center">
     <div className="col-md-6 col-xl-8 order-0">
-      <h4 style={{color:'white'}}> Questions or Comments</h4>
-      <p> For inquiries into my work or my availability, please use the form to contact me. I thank you for interest, and I will do my best to get back to soon! </p>
-      <li className="list-inline-item mr-2"><a className="text-decoration-none" href="whatsapp://send?text=Hello!&phone=+916378542402"><img className="list-social-icon" src={WhatsApp1} width="280" height="60" alt="..." /></a></li>
-
-        
+      <h4 style={{color:'white'}}> Prints Coming Soon</h4>     
     </div>
     
   </div>
@@ -39,7 +34,7 @@ function ContactMe() {
 
 
 
-      <section className="py-5" style={{marginTop:'110px'}}>
+      <section className="py-5" style={{marginTop:'210px'}}>
 
 <div className="container">
   <div className="row flex-center">
@@ -70,4 +65,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+export default Print;
