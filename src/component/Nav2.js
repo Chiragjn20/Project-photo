@@ -3,7 +3,6 @@ import {Link } from 'react-router-dom';
 import './App.css';
 import './Home.css';
 import ABPWhite from './ABPWhite.png';
-import IMG_5400 from './IMG_5400.jpg';
 import Instagram from './Instagram.png';
 import Email from './email.png';
 import WhatsApp from './Whatsapp.png';

@@ -4,7 +4,6 @@ import Home from './component/Home';
 import Portfolio from './component/Portfolio';
 import ContactMe from './component/ContactMe';
 import {BrowserRouter as Router , Switch , Route } from 'react-router-dom';
-import Nav from './component/Nav';
 import Fashion from './component/Fashion';
 import Archi from './component/Archi';
 import Food from './component/Food';
