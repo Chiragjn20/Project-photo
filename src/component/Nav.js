@@ -9,7 +9,7 @@ import Email from './email.png';
 import WhatsApp from './Whatsapp.png';
 function Nav() {
   return (
-      <div>
+      <div className="div10">
     <nav >
         <header className="maiHead" style= {{position :"absolute"}}>
       <Link to ="/">  <img alt="" id="img1" src={ABPWhite} width="270" height="160" /> </Link>
@@ -60,9 +60,10 @@ function Nav() {
             <a id="atag"href="https://www.instagram.com/abhaybnsal/" target="_blank" rel="noreferrer" > <img src={Instagram} alt=""/> </a>
             <a id="atag" href="mailto:abhayswm01@gmail.com" target="_blank" rel="noreferrer"><img src={Email} alt=""/> </a>
             <a id="atag"  href="whatsapp://send?text=Hello!&phone=+916378542402 " target="_blank" rel="noreferrer" > <img src={WhatsApp} alt=""/> </a>
+        
            </div>
 
-                  <p className="text2"> Copyright&copy; Abhay Bansal Photography - All Rights Reserved.</p>
+                 
    
         </div>
     </div>

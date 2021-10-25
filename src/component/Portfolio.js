@@ -11,9 +11,9 @@ import IMG6 from './Portfolio/Por-6.jpg'
 
 function Portfolio() {
   return (
-    <div className="home">
-              
-        <header style= {{position :"absolute"}}>
+    <div className="home" >
+
+      <header className="new-one" style= {{position :"absolute" }}>
       <Link to ="/">  <img src={ABPWhite} width="270" height="160" alt="" /> </Link>
         
       <ul className="nav-links">
@@ -73,6 +73,7 @@ function Portfolio() {
             </div>
         
            </div>
+           
       
     </div>
   );

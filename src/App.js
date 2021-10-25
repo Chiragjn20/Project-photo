@@ -11,13 +11,14 @@ import Food from './component/Food';
 import Video from './component/Video';
 import Conceptual from './component/Conceptual';
 import Modell1 from './component/Modell1';
+import Nav2 from './component/Nav2';
 
 function App() {
   return (
     <Router>
     <div>
      <Switch>
-     <Route path="/" exact component ={Nav}/>
+     <Route path="/" exact component ={Nav2}/>
        <Route path="/home" exact component ={Home}/>
        <Route path="/portfolio" exact component ={Portfolio}/>
        <Route path="/contactme" extact component ={ContactMe}/>
