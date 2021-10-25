@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './App.css';
 
 
@@ -17,6 +17,10 @@ import './assets/css/theme.css';
 
 
 function Modell1() {
+  useEffect(() => {
+    // Update the document title using the browser API
+  window.scrollTo(0,0);  
+  });
   return (
     <div className="div6">
         <header  style= {{position :"absolute"}} className="home">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './App.css';
 
 
@@ -32,6 +32,10 @@ import WhatsApp from './Whatsapp.png';
 import './assets/css/theme.css';
 
 function Conceptual() {
+  useEffect(() => {
+    // Update the document title using the browser API
+  window.scrollTo(0,0);  
+  });
   return (
     <div className="div6">
     <header  style= {{position :"absolute"}} className="home">
