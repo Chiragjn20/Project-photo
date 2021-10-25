@@ -22,8 +22,8 @@ function Nav2() {
           
          
        <div class="dropdown-content">
-         <Link to='/portfolio'> <a href="#">Portfolio</a></Link>
-        <Link to='/contactme' ><a href="#">Contact Us</a></Link>
+         <Link to='/portfolio'> <p>Portfolio</p></Link>
+        <Link to='/contactme' ><p>Contact Us</p></Link>
              </div>
 </div>
           

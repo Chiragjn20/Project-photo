@@ -433,7 +433,7 @@ background-color:black;
         
           }
           
-          .dropdown-content a {
+          .dropdown-content p {
             color:white;
             padding: 7px 16px;
             text-decoration: none;
@@ -442,7 +442,7 @@ background-color:black;
            
           }
           
-          .dropdown-content a:hover {background-color: #ac2d2d }
+          .dropdown-content p:hover {background-color: #ac2d2d }
           
           .dropdown:hover .dropdown-content {
             display: block;
