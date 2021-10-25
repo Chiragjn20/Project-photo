@@ -98,7 +98,7 @@ li{
     padding-left: 40px;
     padding-right: 40px;
     background-color: black ;
-    border: 2px solid rgb(78, 52, 52) ;
+    border: 2px solid rgb(235, 231, 231) ;
     border-radius: 30px;
 }
 
@@ -362,8 +362,8 @@ background-color:black;
 
     .home img {
     
-    height: 120;
-    width: 205px;
+    height: 121.6px;
+    width: 216px;
     
     }
     
@@ -373,8 +373,8 @@ background-color:black;
 
         .home img {
         top: 0px;
-        height: 80;
-        width: 140px;
+        height: 76px;
+        width: 154.2px;
     
         
         }       
