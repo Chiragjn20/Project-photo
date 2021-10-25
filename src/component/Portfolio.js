@@ -11,19 +11,17 @@ import IMG6 from './Portfolio/Por-6.jpg'
 
 function Portfolio() {
   return (
-    <div className="home" >
+    <div className="div6">
+    <header  style= {{position :"absolute"}} className="home">
+  <Link to ="/">  <img alt="" src={ABPWhite} width="270" height="160" /> </Link>
+    
+  <ul className="nav-links">
+    <Link to="/portfolio"><li>Portfolio</li></Link>
+ </ul>
+ </header> 
 
-      <header className="new-one" style= {{position :"absolute" }}>
-      <Link to ="/">  <img src={ABPWhite} width="270" height="160" alt="" /> </Link>
-        
-      <ul className="nav-links">
-        <Link to ="/ContactMe"><li>Contact Us </li></Link>  
-     </ul>
-     </header>  
+   <h1 className="text1"  style={{paddingTop:'200px'}}> Portfolio</h1>
             <div className="div5">
-
-            <h2 className="text1"> Portfolio </h2>
-            
              <div className="div7">
 
                   <div >
@@ -72,7 +70,6 @@ function Portfolio() {
             </div>
         
            </div>
-           
       
     </div>
   );

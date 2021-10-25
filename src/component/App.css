@@ -158,7 +158,7 @@ button{
     padding-top:20px;
     
     padding-bottom: 50px ;
-    margin-top: 190px;
+    
     text-decoration: none;
   
 }
@@ -194,9 +194,6 @@ button{
       
         
         
-}
-.div6 h1 {
-    
 }
 .div7 img {
     margin-top: 25px;
@@ -394,4 +391,6 @@ background-color: rgb(31, 24, 24);;
         }
 
 
-        
+        .home{
+            background-color: black;
+        }
