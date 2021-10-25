@@ -26,7 +26,7 @@ function ContactMe() {
     <div className="col-md-6 col-xl-8 order-0">
       <h4 style={{color:'white'}}> Questions or Comments</h4>
       <p> For inquiries into my work or my availability, please use the form to contact me. I thank you for interest, and I will do my best to get back to soon! </p>
-      <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="whatsapp://send?text=Hello!&phone=+916378542402" src={WhatsApp1} width="280" height="60" alt="..." /></a></li>
+      <li className="list-inline-item mr-2"><a className="text-decoration-none" href="whatsapp://send?text=Hello!&phone=+916378542402"><img className="list-social-icon" src={WhatsApp1} width="280" height="60" alt="..." /></a></li>
 
         
     </div>
@@ -55,11 +55,11 @@ function ContactMe() {
 
                <p className="text5" >Social</p>
       
-      <ul className="list-unstyled list-inline mb-6 mb-md-0 text-center text-md-end text-xl-start" style={{display:'flex'}}>
-        <li className="list-inline-item mr-2"><a className="text-decoration-none" href="https://www.instagram.com/abhaybnsal/"><img className="list-social-icon" src={Instagram} width="50" height="50" alt="..." /></a></li>
-        <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="mailto:abhayswm01@gmail.com" src={Email } width="50" height="50" alt="..." /></a></li>
-        <li className="list-inline-item mr-2"><a className="text-decoration-none" href="#!"><img className="whatsapp://send?text=Hello!&phone=+916378542402" src={WhatsApp} width="50" height="50" alt="..." /></a></li>
-      </ul>
+               <ul className="list-unstyled list-inline mb-6 mb-md-0 text-center text-md-end text-xl-start" style={{display:'flex'}}>
+                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="https://www.instagram.com/abhaybnsal/"><img className="list-social-icon" src={Instagram} width="50" height="50" alt="..." /></a></li>
+                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="mailto:abhayswm01@gmail.com"><img className="list-social-icon" src={Email } width="50" height="50" alt="..." /></a></li>
+                <li className="list-inline-item mr-2"><a className="text-decoration-none" href="whatsapp://send?text=Hello!&phone=+916378542402"><img className="list-social-icon" src={WhatsApp} width="50" height="50" alt="..." /></a></li>
+              </ul>
     </div>
   </div>
 </div>
