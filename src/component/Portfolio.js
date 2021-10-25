@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './App.css';
 import {Link } from 'react-router-dom';
 import ABPWhite from './ABPWhite.png';
@@ -10,6 +10,12 @@ import IMG5 from './Portfolio/Por-5.jpg'
 import IMG6 from './Portfolio/Por-6.jpg'
 
 function Portfolio() {
+
+  useEffect(() => {
+    // Update the document title using the browser API
+  window.scrollTo(0,0);  
+  });
+
   return (
     <div className="div6">
     <header  style= {{position :"absolute"}} className="home">
