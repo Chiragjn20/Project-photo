@@ -17,7 +17,6 @@ function Portfolio() {
       <Link to ="/">  <img src={ABPWhite} width="270" height="160" alt="" /> </Link>
         
       <ul className="nav-links">
-        <Link to="/"><li>Home </li></Link>
         <Link to ="/ContactMe"><li>Contact Us </li></Link>  
      </ul>
      </header>  
