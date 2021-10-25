@@ -17,8 +17,15 @@ function Nav2() {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll" style={{position:'absolute'}}>
         <div className="container"><a className="navbar-brand" href="index.html"> <Link to='/'><img alt="" src={ABPWhite}  /> </Link></a>
           
-          <button className="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"> </span></button>
+        <div class="dropdown">
+        <button className="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"> </span></button>
           
+         
+       <div class="dropdown-content">
+         <Link to='/portfolio'> <a href="#">Portfolio</a></Link>
+        <Link to='/contactme' ><a href="#">Contact Us</a></Link>
+             </div>
+</div>
           
           <div className="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
