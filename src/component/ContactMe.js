@@ -15,7 +15,7 @@ function ContactMe() {
   window.scrollTo(0,0);  
   });
   return (
-    <div className="div6">
+    <div className="div6" style={{height:'100vh'}}>
     <header  style= {{position :"absolute"}} className="home">
   <Link to ="/">  <img alt="" src={ABPWhite} width="270" height="160" /> </Link>    
   <ul className="nav-links">
@@ -25,7 +25,7 @@ function ContactMe() {
 
  <section className="py-5" >
 
-<div className="container" style={{marginTop:'200px'}}>
+<div className="container" style={{marginTop:'150px'}}>
   <div className="row flex-center">
     <div className="col-md-6 col-xl-8 order-0">
       <h4 style={{color:'white'}}> Questions or Comments</h4>
@@ -43,7 +43,7 @@ function ContactMe() {
 
 
 
-      <section className="py-5" style={{marginTop:'110px'}}>
+      <section className="py-5" style={{ marginTop:'50px', bottom:'50px' }}>
 
 <div className="container">
   <div className="row flex-center">

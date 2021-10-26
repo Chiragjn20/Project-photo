@@ -452,3 +452,24 @@ background-color:black;
           .dropdown:hover .dropbtn {
             background-color: #3e8e41;
           }
+
+
+/* 
+          @media (max-width: 900px){
+
+            #con1 {
+            
+            margin-top: 130px;
+            
+            }
+            
+            }
+        
+            @media (max-width: 700px){
+        
+                #con1 {
+                margin-top: 50px;
+            
+                
+                }       
+                } */

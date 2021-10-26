@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import './App.css';
 
 import {Link } from 'react-router-dom';
@@ -9,8 +9,12 @@ import WhatsApp from './Whatsapp.png';
 import './assets/css/theme.css';
 
 function Print() {
+  useEffect(() => {
+    // Update the document title using the browser API
+  window.scrollTo(0,0);  
+  });
   return (
-    <div className="div6" >
+    <div className="div6" style={{height:'100vh'}} >
     <header  style= {{position :"absolute"}} className="home">
   <Link to ="/">  <img alt="" src={ABPWhite} width="270" height="160" /> </Link>    
   <ul className="nav-links">
@@ -20,7 +24,7 @@ function Print() {
 
  <section className="py-5" >
 
-<div className="container" style={{marginTop:'200px'}}>
+<div className="container" id='con1' style={{marginTop:'250px'}}>
   <div className="row flex-center">
     <div className="col-md-6 col-xl-8 order-0">
       <h4 style={{color:'white'}}> Prints Coming Soon</h4>     
@@ -34,7 +38,7 @@ function Print() {
 
 
 
-      <section className="py-5" style={{marginTop:'210px'}}>
+      <section className="py-5" id='con2' style={{marginTop:'110px' , bottom:'80px' }}>
 
 <div className="container">
   <div className="row flex-center">
