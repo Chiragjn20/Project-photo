@@ -401,8 +401,9 @@ background-color:black;
 
         #archi img{
 
-            width: 350px;
-            height: 250px;
+            width: 420px;
+            height: 300px;
+           
         }
 
 
@@ -454,12 +455,13 @@ background-color:black;
           }
 
 
-/* 
+
           @media (max-width: 900px){
 
-            #con1 {
+            #archi img {
             
-            margin-top: 130px;
+                width: 385px;
+                height: 275px;
             
             }
             
@@ -467,9 +469,20 @@ background-color:black;
         
             @media (max-width: 700px){
         
-                #con1 {
-                margin-top: 50px;
+                #archi img {
+                    width: 350px;
+                    height: 250px;
             
                 
                 }       
-                } */
+                }
+
+                @media (max-width: 500px){
+        
+                    #archi img {
+                        width: 315px;
+                        height: 225px;
+                
+                    
+                    }       
+                    }
